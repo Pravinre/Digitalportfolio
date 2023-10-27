@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+    <style>
+       
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #474f8a;
+    padding: 20px;
+    width: 30%;
+    height:30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(196, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 0 20px;
+    color: white;
+}
+h3 {
+    font-size: 13px;
+    margin: 0 0 20px;
+    color: white;
+}
+h2 {
+    font-size: 15px;
+    margin: 0 0 20px;
+    color: white;
+     
+}
+
+.input-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+   
+   
+   
+}
+
+label {
+    display:block;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width:60%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+   
+}
+
+
+button{
+    width: 60%;
+    height: 10%;
+    display: block;
+    background-color: #157ace;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20%;
+ 
+}
+
+
+button:hover {
+    background-color: #587696;
+}
+   
+
+    .two,a{
+        display: inline-block;
+        align-items: center;
+        margin:0 0 15px;
+     
+       
+    }
+   .checkbox{
+    content: "";
+    position: relative;
+    margin-bottom: 10px;
+
+   }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Registeration Form</h1>
+        <form>
+            <div class="input-container">
+                <label for="email">Enter your Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-container">
+                <label for="password">Current Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your current password" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Re-Enter Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="checkbox">
+           
+            <input type="checkbox"id="checkbox">
+            <label for="mycheckbox">I Agree</label>
+            </div>
+          <div class="two">
+               <a href="">forget password?</a>
+                </div>
+   
+           
+            <button type="submit">Login</button>
+         
+        </form>
+       
+    </div>
+   
+</body>
+</html>
